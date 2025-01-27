@@ -37,6 +37,7 @@ impl eframe::App for MyApp {
 
             });
 
+
                 ui.label(format!("Counter: {}", self.counter));
 
         });
